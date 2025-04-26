@@ -1,0 +1,104 @@
+nav {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right ul {
+    display: flex;
+}
+
+div ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: end;
+}
+
+.right ul li {
+    display: flex;
+    align-items: center;
+}
+
+.a {
+    text-align: center;
+    padding: 50px;
+}
+
+.b {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    padding: 30px;
+}
+
+.three {
+    display: inline-flex;
+    display: flex;
+    align-items: end;
+    padding-left: 200px;
+}
+
+.aa {
+    padding-left: 20px;
+    font-size: 2rem;
+}
+
+.bb {
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 150px;
+    width: 300px;
+    background-color: lightgrey;
+    margin: 10px;
+}
+
+h5 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.container button {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+@media screen and (max-width: 1010px) {
+    .container {
+        display: grid;
+        gap: 35px;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+}
+@media screen and (max-width: 1010px) {
+    *{
+      justify-content: center;
+      align-items: center;
+    }
+
+}
